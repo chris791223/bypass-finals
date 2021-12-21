@@ -204,7 +204,7 @@ class BypassFinals
 	}
 
 
-	public function stream_tell(): int | bool
+	public function stream_tell(): bool
 	{
 		return ftell($this->handle);
 	}
